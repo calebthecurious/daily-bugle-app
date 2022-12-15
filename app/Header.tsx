@@ -13,7 +13,7 @@ function Header() {
         <Link href="/" prefetch={false}>
           <h1 className="font-serif text-4xl text-center">
             <span className="underline decoration-6 decoration-red-500">
-              DAILY BUGLE
+              THE DAILY BUGLE
             </span>
           </h1>
         </Link>
