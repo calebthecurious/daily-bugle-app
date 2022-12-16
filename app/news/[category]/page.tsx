@@ -22,11 +22,3 @@ export default NewsCategory;
 export async function generateStaticParams() {
   return categories.map((category) => ({ category: category }));
 }
-
-// localhost:3000/news/business
-// localhost:3000/news/entertainment
-// localhost:3000/news/general
-// localhost:3000/news/health
-// localhost:3000/news/science
-// localhost:3000/news/sports
-// ^^^ nextjs knows to prebuild these pages
